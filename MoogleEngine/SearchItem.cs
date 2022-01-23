@@ -4,9 +4,9 @@ public class SearchItem
 {
     public SearchItem(string title, string snippet, float score)
     {
-        this.Title = title;
-        this.Snippet = snippet;
-        this.Score = score;
+        Title = title;
+        Snippet = snippet;
+        Score = score;
     }
 
     public string Title { get; private set; }
